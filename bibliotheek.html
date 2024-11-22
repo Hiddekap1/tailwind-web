@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliotheek - YouTube Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+      <div class="flex items-center">
+        <img
+          src="images.png"
+          style="width: 120px; height: auto; display: block;"
+          alt="YouTube Logo"
+          class="h-10"
+        />
+      </div>
+
+      <div class="flex-grow mx-4">
+        <input
+          type="text"
+          placeholder="Zoeken"
+          class="w-full max-w-lg border border-gray-300 rounded-full px-4 py-2 text-sm mx-auto block"
+        />
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <button class="text-gray-600 hover:text-black">🔔</button>
+        <button class="text-gray-600 hover:text-black">📷</button>
+        <button class="text-gray-600 hover:text-black">👤</button>
+      </div>
+    </div>
+
+    <nav class="container mx-auto px-4 py-2 flex justify-start space-x-4 text-sm text-gray-600">
+        <a href="index.html" class="flex items-center space-x-2 hover:text-black" title="Home">
+          <span>🏠</span>
+          <span>Home</span>
+        </a>
+        <a href="trending.html" class="flex items-center space-x-2 hover:text-black" title="Trending">
+          <span>🔥</span>
+          <span>Trending</span>
+        </a>
+        <a href="abonnementen.html" class="flex items-center space-x-2 hover:text-black" title="Abonnementen">
+          <span>📺</span>
+          <span>Abonnementen</span>
+        </a>
+        <a href="bibliotheek.html" class="flex items-center space-x-2 hover:text-black text-red-600 font-semibold" title="Bibliotheek">
+          <span>📚</span>
+          <span>Bibliotheek</span>
+        </a>
+      </nav>
+  </header>
+
+  <main class="container mx-auto px-4 py-6">
+    <h1 class="text-2xl font-bold mb-4">Jouw Bibliotheek</h1>
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Recent bekeken video's</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">
+        
+
+        <div class="bg-white shadow rounded overflow-hidden">
+          <img src="f3dd3paddenstoel.jpg" alt="Video Thumbnail" class="w-full">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Fortnite nieuw seizoen</h3>
+            <p class="text-sm text-gray-600">F3DD3-YT • 2 dagen geleden</p>
+          </div>
+        </div>
+      </div>
+    
+      
+    </section>
+
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Jouw afspeellijsten</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-white shadow rounded overflow-hidden">
+          <img src="muziek.jpg" alt="Playlist Thumbnail" class="w-full">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Favoriete muziek</h3>
+            <p class="text-sm text-gray-600">25 video's</p>
+          </div>
+        </div>
+     
+    </div>
+    </section>
+  </main>
+</body>
+</html>
